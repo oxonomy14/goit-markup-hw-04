@@ -55,7 +55,7 @@ img {
   display: block;
 }
 
-/* HEADER - Шапка сайта - Начало */
+/* HEADER - Шапка сайта  */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -137,7 +137,10 @@ img {
 /*FIRST SECTION  - Начало*/
 
 .section_top {
+  background-image: linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(/images/people-office-1.jpg);
   background-color: #2e2f42;
+  background-repeat: no-repeat;
+  background-size: 100%;
   padding: 188px 0;
 }
 
@@ -178,7 +181,7 @@ img {
 /*SECOND SECTION  - Начало*/
 
 .section_second {
-  padding: 120px 0;
+  /*padding: 120px 0;*/
 }
 
 .visually-hidden {
@@ -192,6 +195,17 @@ img {
 
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.section-second-svg-box {
+display: flex;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+padding: 24px 102px 24px 102px;
+background-color: #f4f4fd;
+margin-bottom: 8px;
 }
 
 .section_second_title {
@@ -213,11 +227,12 @@ img {
 .section_second_list {
   display: flex;
   gap: 24px;
-  padding: 0 156px;
+  /*padding: 0 156px;*/
+  padding: 0 0;
 }
 
 .section_second_li {
-flex-basis: calc(((100% - 72px) / 4));
+flex-basis: calc((100% - 72px)/4);
 }
 
 .section_second_title {
@@ -276,6 +291,12 @@ background-color: aquamarine;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.section-third-svg-socialbox-icon {
+  fill: red;
+  width: 40px;
+  height: 40px;
 }
 
 /*THIRD SECTION - END */
