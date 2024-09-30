@@ -122,6 +122,7 @@ img {
 .address {
   font-style: normal;
   display: flex;
+  background-color: burlywood;
 }
 
 .address-list {
