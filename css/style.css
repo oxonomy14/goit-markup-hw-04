@@ -515,16 +515,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  padding-left: 0px;
-  margin-left: 0px;
   margin-bottom: 16px;
 }
 
 .footer-container-socialbox-icon {
   display: flex;
   flex-direction: row;
-  padding-top: 16px;
-  padding-left: 0px;
   gap: 16px;
 }
 
