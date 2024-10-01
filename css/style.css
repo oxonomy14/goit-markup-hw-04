@@ -468,12 +468,14 @@ img {
 .footer-container {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
   padding: 0;
 }
 
 .footer-container-logo {
   display: flex;
   flex-direction: column;
+  margin-right: 120px;
 }
 
 .footer_logo {
