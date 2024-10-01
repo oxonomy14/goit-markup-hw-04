@@ -509,7 +509,7 @@ img {
   margin-left: 200px;
 }
 
-.footer-container-socialbox-title {
+.footer-container-socialbox-descr {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -532,6 +532,7 @@ img {
 .footer-container-socialbox-icon-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-container-socialbox-icon-item-link {
@@ -546,6 +547,9 @@ img {
 
 .footer-container-socialbox-icon-item-link:hover {
   background-color: #31d0aa;
+}
+
+.footer-container-socialbox-icon-item-link:focus {
   background-color: #31d0aa;
 }
 
