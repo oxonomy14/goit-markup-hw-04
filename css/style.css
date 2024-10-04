@@ -122,7 +122,7 @@ img {
   color: #404bbf;
 }
 
-.nav_menu_link::after {
+.active-page::after {
   width: 100%;
   content: "";
   position: absolute;
@@ -305,6 +305,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  background-color: #fff;
 }
 
 .staff {
@@ -511,7 +512,6 @@ img {
 .footer-container-socialbox {
   display: flex;
   flex-direction: column;
-  margin-left: 200px;
 }
 
 .footer-container-socialbox-descr {
